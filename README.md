@@ -9,16 +9,16 @@ You HAVE TO use a virtual environment when working with this repository. The REA
 2. cd to Repository
 
 ## Create a virtual environment
-1. Type 'virtualenv (directory name)' when you are inside the JUCO file
-2. The name of the virtual environment MUST BE 'venv' 
-3. To activate your virtual environment, type 'source venv/bin/activate'
+1. Type `virtualenv (directory name)` when you are inside the JUCO file
+2. The name of the virtual environment MUST BE `venv` 
+3. To activate your virtual environment, type `source venv/bin/activate`
 4. Install the dependencies 
-5. Continue workign within this virtual environment
-6. Deactivate the environment by typing 'deactivate'
+5. Continue working within this virtual environment
+6. Deactivate the environment by typing `deactivate`
 
 ## How to install the various dependencies
-1. Within your virtual environment, type 'pip install -r requirements.txt' to install the dependencies
-2. When you install new dependencies, update this file by typing 'pip freeze -l > requirements.txt'
+1. Within your virtual environment, type `pip install -r requirements.txt` to install the dependencies
+2. When you install new dependencies, update this file by typing `pip freeze -l > requirements.txt`
 
 ## What are the various files
 - (a): `requirements.txt`: Needed to install the dependencies
